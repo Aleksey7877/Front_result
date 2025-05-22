@@ -1,0 +1,139 @@
+.fav-screen {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fav-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.fav-content {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.fav-header {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+}
+
+.fav-nav {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  gap: 28px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding: 24px 0;
+  justify-content: flex-start;
+}
+
+.fav-link {
+  cursor: pointer;
+}
+
+.fav-link.active {
+  color: #4a61dd;
+}
+
+.fav-subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Montserrat-Bold", Helvetica;
+}
+
+.fav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 40px;
+  flex-grow: 1;
+}
+
+.fav-film-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.fav-film-img {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.fav-film-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.fav-film-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Montserrat-Medium", Helvetica;
+}
+
+.fav-film-duration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  font-family: "Montserrat-Regular", Helvetica;
+}
+
+.fav-film-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.fav-film-delete {
+  font-size: 16px;
+  color: #d00;
+  cursor: pointer;
+  font-family: "Montserrat-Regular", Helvetica;
+}
+
+.fav-footer {
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--MLU-7pj, black);
+  text-align: left;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fav-footer-text {
+  margin-left: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat-Medium", Helvetica;
+  padding-left: 0;
+}
